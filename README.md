@@ -10,3 +10,4 @@ and time 3D plot. Study the efficiency of the MANET system in terms of the batte
 transmission reliability, transmission delay, bandwidth and hardware complexity.
 
 Coursework description is in ELEC6245-cw2.pdf
+Runs the model using OMNET ver.5.6.3 and INET4 library 
