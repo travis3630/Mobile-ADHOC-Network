@@ -1,0 +1,16 @@
+%%%% delay %%%%
+time_delay=readtable('end2endhost1.csv');
+time=time_delay{:,1};
+delay=time_delay{:,2};
+figure();
+stem(time,delay,'bo')
+xlabel('Time/s'), ylabel('delay time/s')
+title('delay time as time propagates')
+
+time_delay_25mw=readtable('end2end25mw.csv');
+time2=time_delay{:,1};
+delay2=time_delay{:,2};
+figure();
+stem(time2,delay2,'b-')
+xlabel('Time/s'), ylabel('delay time/s')
+title('delay time as time propagates')
