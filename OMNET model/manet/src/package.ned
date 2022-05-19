@@ -1,0 +1,3 @@
+package manet;
+
+@license(LGPL);

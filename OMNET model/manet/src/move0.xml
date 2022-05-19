@@ -1,0 +1,7 @@
+<movement>
+	<!-- draw a hexagon -->
+	<set speed="30" x="450" y="200"/>
+	<repeat>
+		<forward d="180"/>
+	</repeat>
+</movement>

@@ -1,0 +1,6 @@
+<movement>
+	<set speed="22" x="1300" y="1300"/>
+	<repeat>
+		<forward d="0"/>
+	</repeat>
+</movement>
